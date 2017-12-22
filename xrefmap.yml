@@ -13,11 +13,11 @@ references:
   commentId: T:System.Net.ArpRequest
   fullName: System.Net.ArpRequest
   nameWithType: ArpRequest
-- uid: System.Net.ArpRequest.Send(System.Net.IPAddress)
+- uid: System.Net.ArpRequest.Send(IPAddress)
   name: Send(IPAddress)
-  href: api/System.Net.ArpRequest.html#System_Net_ArpRequest_Send_System_Net_IPAddress_
-  commentId: M:System.Net.ArpRequest.Send(System.Net.IPAddress)
-  fullName: System.Net.ArpRequest.Send(System.Net.IPAddress)
+  href: api/System.Net.ArpRequest.html#System_Net_ArpRequest_Send_IPAddress_
+  commentId: M:System.Net.ArpRequest.Send(IPAddress)
+  fullName: System.Net.ArpRequest.Send(IPAddress)
   nameWithType: ArpRequest.Send(IPAddress)
 - uid: System.Net.ArpRequest.Send*
   name: Send
@@ -31,17 +31,17 @@ references:
   commentId: T:System.Net.ArpRequestResult
   fullName: System.Net.ArpRequestResult
   nameWithType: ArpRequestResult
-- uid: System.Net.ArpRequestResult.#ctor(System.Exception)
+- uid: System.Net.ArpRequestResult.#ctor(Exception)
   name: ArpRequestResult(Exception)
-  href: api/System.Net.ArpRequestResult.html#System_Net_ArpRequestResult__ctor_System_Exception_
-  commentId: M:System.Net.ArpRequestResult.#ctor(System.Exception)
-  fullName: System.Net.ArpRequestResult.ArpRequestResult(System.Exception)
+  href: api/System.Net.ArpRequestResult.html#System_Net_ArpRequestResult__ctor_Exception_
+  commentId: M:System.Net.ArpRequestResult.#ctor(Exception)
+  fullName: System.Net.ArpRequestResult.ArpRequestResult(Exception)
   nameWithType: ArpRequestResult.ArpRequestResult(Exception)
-- uid: System.Net.ArpRequestResult.#ctor(System.Net.NetworkInformation.PhysicalAddress)
+- uid: System.Net.ArpRequestResult.#ctor(PhysicalAddress)
   name: ArpRequestResult(PhysicalAddress)
-  href: api/System.Net.ArpRequestResult.html#System_Net_ArpRequestResult__ctor_System_Net_NetworkInformation_PhysicalAddress_
-  commentId: M:System.Net.ArpRequestResult.#ctor(System.Net.NetworkInformation.PhysicalAddress)
-  fullName: System.Net.ArpRequestResult.ArpRequestResult(System.Net.NetworkInformation.PhysicalAddress)
+  href: api/System.Net.ArpRequestResult.html#System_Net_ArpRequestResult__ctor_PhysicalAddress_
+  commentId: M:System.Net.ArpRequestResult.#ctor(PhysicalAddress)
+  fullName: System.Net.ArpRequestResult.ArpRequestResult(PhysicalAddress)
   nameWithType: ArpRequestResult.ArpRequestResult(PhysicalAddress)
 - uid: System.Net.ArpRequestResult.#ctor*
   name: ArpRequestResult
@@ -142,12 +142,12 @@ references:
   commentId: M:System.Net.SecureOnPassword.#ctor(System.String)
   fullName: System.Net.SecureOnPassword.SecureOnPassword(System.String)
   nameWithType: SecureOnPassword.SecureOnPassword(String)
-- uid: System.Net.SecureOnPassword.#ctor(System.String,System.Text.Encoding)
-  name: SecureOnPassword(String, Encoding)
-  href: api/System.Net.SecureOnPassword.html#System_Net_SecureOnPassword__ctor_System_String_System_Text_Encoding_
-  commentId: M:System.Net.SecureOnPassword.#ctor(System.String,System.Text.Encoding)
-  fullName: System.Net.SecureOnPassword.SecureOnPassword(System.String, System.Text.Encoding)
-  nameWithType: SecureOnPassword.SecureOnPassword(String, Encoding)
+- uid: System.Net.SecureOnPassword.#ctor(System.String,Text.Encoding)
+  name: SecureOnPassword(String, Text.Encoding)
+  href: api/System.Net.SecureOnPassword.html#System_Net_SecureOnPassword__ctor_System_String_Text_Encoding_
+  commentId: M:System.Net.SecureOnPassword.#ctor(System.String,Text.Encoding)
+  fullName: System.Net.SecureOnPassword.SecureOnPassword(System.String, Text.Encoding)
+  nameWithType: SecureOnPassword.SecureOnPassword(String, Text.Encoding)
 - uid: System.Net.SecureOnPassword.#ctor*
   name: SecureOnPassword
   href: api/System.Net.SecureOnPassword.html#System_Net_SecureOnPassword__ctor_
@@ -172,11 +172,11 @@ references:
   commentId: M:System.Net.SecureOnPassword.ToString
   fullName: System.Net.SecureOnPassword.ToString()
   nameWithType: SecureOnPassword.ToString()
-- uid: System.Net.SecureOnPassword.ToString(System.IFormatProvider)
+- uid: System.Net.SecureOnPassword.ToString(IFormatProvider)
   name: ToString(IFormatProvider)
-  href: api/System.Net.SecureOnPassword.html#System_Net_SecureOnPassword_ToString_System_IFormatProvider_
-  commentId: M:System.Net.SecureOnPassword.ToString(System.IFormatProvider)
-  fullName: System.Net.SecureOnPassword.ToString(System.IFormatProvider)
+  href: api/System.Net.SecureOnPassword.html#System_Net_SecureOnPassword_ToString_IFormatProvider_
+  commentId: M:System.Net.SecureOnPassword.ToString(IFormatProvider)
+  fullName: System.Net.SecureOnPassword.ToString(IFormatProvider)
   nameWithType: SecureOnPassword.ToString(IFormatProvider)
 - uid: System.Net.SecureOnPassword.ToString*
   name: ToString
@@ -190,42 +190,42 @@ references:
   commentId: T:System.Net.SendWol
   fullName: System.Net.SendWol
   nameWithType: SendWol
-- uid: System.Net.SendWol.Send(System.Net.IPEndPoint,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)
+- uid: System.Net.SendWol.Send(IPEndPoint,PhysicalAddress)
+  name: Send(IPEndPoint, PhysicalAddress)
+  href: api/System.Net.SendWol.html#System_Net_SendWol_Send_IPEndPoint_PhysicalAddress_
+  commentId: M:System.Net.SendWol.Send(IPEndPoint,PhysicalAddress)
+  fullName: System.Net.SendWol.Send(IPEndPoint, PhysicalAddress)
+  nameWithType: SendWol.Send(IPEndPoint, PhysicalAddress)
+- uid: System.Net.SendWol.Send(IPEndPoint,PhysicalAddress,System.Net.SecureOnPassword)
+  name: Send(IPEndPoint, PhysicalAddress, SecureOnPassword)
+  href: api/System.Net.SendWol.html#System_Net_SendWol_Send_IPEndPoint_PhysicalAddress_System_Net_SecureOnPassword_
+  commentId: M:System.Net.SendWol.Send(IPEndPoint,PhysicalAddress,System.Net.SecureOnPassword)
+  fullName: System.Net.SendWol.Send(IPEndPoint, PhysicalAddress, System.Net.SecureOnPassword)
+  nameWithType: SendWol.Send(IPEndPoint, PhysicalAddress, SecureOnPassword)
+- uid: System.Net.SendWol.Send(IPEndPoint,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)
   name: Send(IPEndPoint, Byte, Byte, Byte, Byte, Byte, Byte)
-  href: api/System.Net.SendWol.html#System_Net_SendWol_Send_System_Net_IPEndPoint_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_
-  commentId: M:System.Net.SendWol.Send(System.Net.IPEndPoint,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)
-  fullName: System.Net.SendWol.Send(System.Net.IPEndPoint, System.Byte, System.Byte, System.Byte, System.Byte, System.Byte, System.Byte)
+  href: api/System.Net.SendWol.html#System_Net_SendWol_Send_IPEndPoint_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_
+  commentId: M:System.Net.SendWol.Send(IPEndPoint,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)
+  fullName: System.Net.SendWol.Send(IPEndPoint, System.Byte, System.Byte, System.Byte, System.Byte, System.Byte, System.Byte)
   nameWithType: SendWol.Send(IPEndPoint, Byte, Byte, Byte, Byte, Byte, Byte)
-- uid: System.Net.SendWol.Send(System.Net.IPEndPoint,System.Byte[])
+- uid: System.Net.SendWol.Send(IPEndPoint,System.Byte[])
   name: Send(IPEndPoint, Byte[])
-  href: api/System.Net.SendWol.html#System_Net_SendWol_Send_System_Net_IPEndPoint_System_Byte___
-  commentId: M:System.Net.SendWol.Send(System.Net.IPEndPoint,System.Byte[])
+  href: api/System.Net.SendWol.html#System_Net_SendWol_Send_IPEndPoint_System_Byte___
+  commentId: M:System.Net.SendWol.Send(IPEndPoint,System.Byte[])
   name.vb: Send(IPEndPoint, Byte())
-  fullName: System.Net.SendWol.Send(System.Net.IPEndPoint, System.Byte[])
-  fullName.vb: System.Net.SendWol.Send(System.Net.IPEndPoint, System.Byte())
+  fullName: System.Net.SendWol.Send(IPEndPoint, System.Byte[])
+  fullName.vb: System.Net.SendWol.Send(IPEndPoint, System.Byte())
   nameWithType: SendWol.Send(IPEndPoint, Byte[])
   nameWithType.vb: SendWol.Send(IPEndPoint, Byte())
-- uid: System.Net.SendWol.Send(System.Net.IPEndPoint,System.Byte[],System.Net.SecureOnPassword)
+- uid: System.Net.SendWol.Send(IPEndPoint,System.Byte[],System.Net.SecureOnPassword)
   name: Send(IPEndPoint, Byte[], SecureOnPassword)
-  href: api/System.Net.SendWol.html#System_Net_SendWol_Send_System_Net_IPEndPoint_System_Byte___System_Net_SecureOnPassword_
-  commentId: M:System.Net.SendWol.Send(System.Net.IPEndPoint,System.Byte[],System.Net.SecureOnPassword)
+  href: api/System.Net.SendWol.html#System_Net_SendWol_Send_IPEndPoint_System_Byte___System_Net_SecureOnPassword_
+  commentId: M:System.Net.SendWol.Send(IPEndPoint,System.Byte[],System.Net.SecureOnPassword)
   name.vb: Send(IPEndPoint, Byte(), SecureOnPassword)
-  fullName: System.Net.SendWol.Send(System.Net.IPEndPoint, System.Byte[], System.Net.SecureOnPassword)
-  fullName.vb: System.Net.SendWol.Send(System.Net.IPEndPoint, System.Byte(), System.Net.SecureOnPassword)
+  fullName: System.Net.SendWol.Send(IPEndPoint, System.Byte[], System.Net.SecureOnPassword)
+  fullName.vb: System.Net.SendWol.Send(IPEndPoint, System.Byte(), System.Net.SecureOnPassword)
   nameWithType: SendWol.Send(IPEndPoint, Byte[], SecureOnPassword)
   nameWithType.vb: SendWol.Send(IPEndPoint, Byte(), SecureOnPassword)
-- uid: System.Net.SendWol.Send(System.Net.IPEndPoint,System.Net.NetworkInformation.PhysicalAddress)
-  name: Send(IPEndPoint, PhysicalAddress)
-  href: api/System.Net.SendWol.html#System_Net_SendWol_Send_System_Net_IPEndPoint_System_Net_NetworkInformation_PhysicalAddress_
-  commentId: M:System.Net.SendWol.Send(System.Net.IPEndPoint,System.Net.NetworkInformation.PhysicalAddress)
-  fullName: System.Net.SendWol.Send(System.Net.IPEndPoint, System.Net.NetworkInformation.PhysicalAddress)
-  nameWithType: SendWol.Send(IPEndPoint, PhysicalAddress)
-- uid: System.Net.SendWol.Send(System.Net.IPEndPoint,System.Net.NetworkInformation.PhysicalAddress,System.Net.SecureOnPassword)
-  name: Send(IPEndPoint, PhysicalAddress, SecureOnPassword)
-  href: api/System.Net.SendWol.html#System_Net_SendWol_Send_System_Net_IPEndPoint_System_Net_NetworkInformation_PhysicalAddress_System_Net_SecureOnPassword_
-  commentId: M:System.Net.SendWol.Send(System.Net.IPEndPoint,System.Net.NetworkInformation.PhysicalAddress,System.Net.SecureOnPassword)
-  fullName: System.Net.SendWol.Send(System.Net.IPEndPoint, System.Net.NetworkInformation.PhysicalAddress, System.Net.SecureOnPassword)
-  nameWithType: SendWol.Send(IPEndPoint, PhysicalAddress, SecureOnPassword)
 - uid: System.Net.SendWol.Send*
   name: Send
   href: api/System.Net.SendWol.html#System_Net_SendWol_Send_
@@ -292,6 +292,12 @@ references:
   commentId: M:System.Net.Topology.NetMask.#ctor
   fullName: System.Net.Topology.NetMask.NetMask()
   nameWithType: NetMask.NetMask()
+- uid: System.Net.Topology.NetMask.#ctor(IPAddress)
+  name: NetMask(IPAddress)
+  href: api/System.Net.Topology.NetMask.html#System_Net_Topology_NetMask__ctor_IPAddress_
+  commentId: M:System.Net.Topology.NetMask.#ctor(IPAddress)
+  fullName: System.Net.Topology.NetMask.NetMask(IPAddress)
+  nameWithType: NetMask.NetMask(IPAddress)
 - uid: System.Net.Topology.NetMask.#ctor(System.Byte)
   name: NetMask(Byte)
   href: api/System.Net.Topology.NetMask.html#System_Net_Topology_NetMask__ctor_System_Byte_
@@ -319,12 +325,6 @@ references:
   commentId: M:System.Net.Topology.NetMask.#ctor(System.Int32)
   fullName: System.Net.Topology.NetMask.NetMask(System.Int32)
   nameWithType: NetMask.NetMask(Int32)
-- uid: System.Net.Topology.NetMask.#ctor(System.Net.IPAddress)
-  name: NetMask(IPAddress)
-  href: api/System.Net.Topology.NetMask.html#System_Net_Topology_NetMask__ctor_System_Net_IPAddress_
-  commentId: M:System.Net.Topology.NetMask.#ctor(System.Net.IPAddress)
-  fullName: System.Net.Topology.NetMask.NetMask(System.Net.IPAddress)
-  nameWithType: NetMask.NetMask(IPAddress)
 - uid: System.Net.Topology.NetMask.#ctor(System.Net.Topology.NetMask)
   name: NetMask(NetMask)
   href: api/System.Net.Topology.NetMask.html#System_Net_Topology_NetMask__ctor_System_Net_Topology_NetMask_
@@ -361,17 +361,17 @@ references:
   commentId: Overload:System.Net.Topology.NetMask.AddressLength
   fullName: System.Net.Topology.NetMask.AddressLength
   nameWithType: NetMask.AddressLength
-- uid: System.Net.Topology.NetMask.BitwiseAnd(System.Net.IPAddress,System.Net.Topology.NetMask)
+- uid: System.Net.Topology.NetMask.BitwiseAnd(IPAddress,System.Net.Topology.NetMask)
   name: BitwiseAnd(IPAddress, NetMask)
-  href: api/System.Net.Topology.NetMask.html#System_Net_Topology_NetMask_BitwiseAnd_System_Net_IPAddress_System_Net_Topology_NetMask_
-  commentId: M:System.Net.Topology.NetMask.BitwiseAnd(System.Net.IPAddress,System.Net.Topology.NetMask)
-  fullName: System.Net.Topology.NetMask.BitwiseAnd(System.Net.IPAddress, System.Net.Topology.NetMask)
+  href: api/System.Net.Topology.NetMask.html#System_Net_Topology_NetMask_BitwiseAnd_IPAddress_System_Net_Topology_NetMask_
+  commentId: M:System.Net.Topology.NetMask.BitwiseAnd(IPAddress,System.Net.Topology.NetMask)
+  fullName: System.Net.Topology.NetMask.BitwiseAnd(IPAddress, System.Net.Topology.NetMask)
   nameWithType: NetMask.BitwiseAnd(IPAddress, NetMask)
-- uid: System.Net.Topology.NetMask.BitwiseAnd(System.Net.Topology.NetMask,System.Net.IPAddress)
+- uid: System.Net.Topology.NetMask.BitwiseAnd(System.Net.Topology.NetMask,IPAddress)
   name: BitwiseAnd(NetMask, IPAddress)
-  href: api/System.Net.Topology.NetMask.html#System_Net_Topology_NetMask_BitwiseAnd_System_Net_Topology_NetMask_System_Net_IPAddress_
-  commentId: M:System.Net.Topology.NetMask.BitwiseAnd(System.Net.Topology.NetMask,System.Net.IPAddress)
-  fullName: System.Net.Topology.NetMask.BitwiseAnd(System.Net.Topology.NetMask, System.Net.IPAddress)
+  href: api/System.Net.Topology.NetMask.html#System_Net_Topology_NetMask_BitwiseAnd_System_Net_Topology_NetMask_IPAddress_
+  commentId: M:System.Net.Topology.NetMask.BitwiseAnd(System.Net.Topology.NetMask,IPAddress)
+  fullName: System.Net.Topology.NetMask.BitwiseAnd(System.Net.Topology.NetMask, IPAddress)
   nameWithType: NetMask.BitwiseAnd(NetMask, IPAddress)
 - uid: System.Net.Topology.NetMask.BitwiseAnd(System.Net.Topology.NetMask,System.Net.Topology.NetMask)
   name: BitwiseAnd(NetMask, NetMask)
@@ -490,17 +490,17 @@ references:
   commentId: Overload:System.Net.Topology.NetMask.GetMaskBytes
   fullName: System.Net.Topology.NetMask.GetMaskBytes
   nameWithType: NetMask.GetMaskBytes
-- uid: System.Net.Topology.NetMask.op_BitwiseAnd(System.Net.IPAddress,System.Net.Topology.NetMask)
+- uid: System.Net.Topology.NetMask.op_BitwiseAnd(IPAddress,System.Net.Topology.NetMask)
   name: BitwiseAnd(IPAddress, NetMask)
-  href: api/System.Net.Topology.NetMask.html#System_Net_Topology_NetMask_op_BitwiseAnd_System_Net_IPAddress_System_Net_Topology_NetMask_
-  commentId: M:System.Net.Topology.NetMask.op_BitwiseAnd(System.Net.IPAddress,System.Net.Topology.NetMask)
-  fullName: System.Net.Topology.NetMask.BitwiseAnd(System.Net.IPAddress, System.Net.Topology.NetMask)
+  href: api/System.Net.Topology.NetMask.html#System_Net_Topology_NetMask_op_BitwiseAnd_IPAddress_System_Net_Topology_NetMask_
+  commentId: M:System.Net.Topology.NetMask.op_BitwiseAnd(IPAddress,System.Net.Topology.NetMask)
+  fullName: System.Net.Topology.NetMask.BitwiseAnd(IPAddress, System.Net.Topology.NetMask)
   nameWithType: NetMask.BitwiseAnd(IPAddress, NetMask)
-- uid: System.Net.Topology.NetMask.op_BitwiseAnd(System.Net.Topology.NetMask,System.Net.IPAddress)
+- uid: System.Net.Topology.NetMask.op_BitwiseAnd(System.Net.Topology.NetMask,IPAddress)
   name: BitwiseAnd(NetMask, IPAddress)
-  href: api/System.Net.Topology.NetMask.html#System_Net_Topology_NetMask_op_BitwiseAnd_System_Net_Topology_NetMask_System_Net_IPAddress_
-  commentId: M:System.Net.Topology.NetMask.op_BitwiseAnd(System.Net.Topology.NetMask,System.Net.IPAddress)
-  fullName: System.Net.Topology.NetMask.BitwiseAnd(System.Net.Topology.NetMask, System.Net.IPAddress)
+  href: api/System.Net.Topology.NetMask.html#System_Net_Topology_NetMask_op_BitwiseAnd_System_Net_Topology_NetMask_IPAddress_
+  commentId: M:System.Net.Topology.NetMask.op_BitwiseAnd(System.Net.Topology.NetMask,IPAddress)
+  fullName: System.Net.Topology.NetMask.BitwiseAnd(System.Net.Topology.NetMask, IPAddress)
   nameWithType: NetMask.BitwiseAnd(NetMask, IPAddress)
 - uid: System.Net.Topology.NetMask.op_BitwiseAnd(System.Net.Topology.NetMask,System.Net.Topology.NetMask)
   name: BitwiseAnd(NetMask, NetMask)

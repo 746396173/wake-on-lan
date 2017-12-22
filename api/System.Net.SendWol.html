@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class SendWol
    | wake-on-lan ">
-    <meta name="generator" content="docfx 2.12.1.0">
+    <meta name="generator" content="docfx 2.29.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     <meta property="docfx:rel" content="../">
+    
   </head>
   <body data-spy="scroll" data-target="#affix">
     <div id="wrapper">
@@ -56,7 +58,7 @@
           </div>
         </div>
       </header>
-      <div role="main" class="container body-content">
+      <div class="container body-content">
         
         <div id="search-results">
           <div class="search-list"></div>
@@ -74,415 +76,270 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content">
-              
-              
-              <h1 id="System_Net_SendWol" data-uid="System.Net.SendWol">Class SendWol
-              </h1>
-              <div class="markdown level0 summary"><p>Provides methods for sending Wake On LAN signals (magic packets).</p>
+            <article class="content wrap" id="_content" data-uid="System.Net.SendWol">
+  
+  
+  <h1 id="System_Net_SendWol" data-uid="System.Net.SendWol" class="text-break">Class SendWol
+  </h1>
+  <div class="markdown level0 summary"><p>Provides methods for sending Wake On LAN signals (magic packets).</p>
 </div>
-              <div class="markdown level0 conceptual"></div>
-              <div class="inheritance">
-                <h5>Inheritance</h5>
-                  <div class="level0"><span class="xref">System.Object</span></div>
-                  <div class="level1"><span class="xref">SendWol</span></div>
-              </div>
-              <div class="inheritedMembers">
-                <h5>Inherited Members</h5>
-                <div>
-                  <span class="xref">System.Object.ToString()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.Equals(System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.GetHashCode()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.GetType()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.MemberwiseClone()</span>
-                </div>
-              </div>
-              <h6><strong>Namespace</strong>:System.Net</h6>
-              <h6><strong>Assembly</strong>:WakeOnLan.dll</h6>
-              <h5 id="System_Net_SendWol_syntax">Syntax</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static class SendWol</code></pre>
-              </div>
-              <h3 id="methods">Methods
-              </h3>
-              <span class="small pull-right mobile-hide">
-                <span class="divider">|</span>
-                <a href="https://github.com/nikeee/wake-on-lan/new/master/apiSpec/new?filename=System_Net_SendWol_Send_System_Net_IPEndPoint_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_.md&amp;value=---%0Auid%3A%20System.Net.SendWol.Send(System.Net.IPEndPoint%2CSystem.Byte%2CSystem.Byte%2CSystem.Byte%2CSystem.Byte%2CSystem.Byte%2CSystem.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-              </span>
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/nikeee/wake-on-lan/blob/master/src/WOL/SendWol.cs/#L24">View Source</a>
-              </span>
-              <a id="System_Net_SendWol_Send_" data-uid="System.Net.SendWol.Send*"></a>
-              <h4 id="System_Net_SendWol_Send_System_Net_IPEndPoint_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="System.Net.SendWol.Send(System.Net.IPEndPoint,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)">Send(IPEndPoint, Byte, Byte, Byte, Byte, Byte, Byte)</h4>
-              <div class="markdown level1 summary"><p>Sends a Wake On LAN signal (magic packet) to a client.</p>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SendWol</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="System.Net.html">System.Net</a></h6>
+  <h6><strong>Assembly</strong>: WakeOnLan.dll</h6>
+  <h5 id="System_Net_SendWol_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class SendWol : object</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/nikeee/wake-on-lan/new/v2/apiSpec/new?filename=System_Net_SendWol_Send_IPEndPoint_PhysicalAddress_.md&amp;value=---%0Auid%3A%20System.Net.SendWol.Send(IPEndPoint%2CPhysicalAddress)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/nikeee/wake-on-lan/blob/v2/src/WOL/SendWol.cs/#L59">View Source</a>
+  </span>
+  <a id="System_Net_SendWol_Send_" data-uid="System.Net.SendWol.Send*"></a>
+  <h4 id="System_Net_SendWol_Send_IPEndPoint_PhysicalAddress_" data-uid="System.Net.SendWol.Send(IPEndPoint,PhysicalAddress)">Send(IPEndPoint, PhysicalAddress)</h4>
+  <div class="markdown level1 summary"><p>Sends a Wake On LAN signal (magic packet) to a client.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use an other overload of this method.&quot;)]
-public static void Send(IPEndPoint target, byte mac0, byte mac1, byte mac2, byte mac3, byte mac4, byte mac5)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.Net.IPEndPoint</span></td>
-                    <td><span class="parametername">target</span></td>
-                    <td><p>Destination <span class="xref">System.Net.IPEndPoint</span>.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Send(IPEndPoint target, PhysicalAddress macAddress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IPEndPoint</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>Destination <see cref="!:IPEndPoint"></see>.</p>
 </td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Byte</span></td>
-                    <td><span class="parametername">mac0</span></td>
-                    <td><p>First MAC Address byte.</p>
+      </tr>
+      <tr>
+        <td><span class="xref">PhysicalAddress</span></td>
+        <td><span class="parametername">macAddress</span></td>
+        <td><p>The MAC address of the designated client.</p>
 </td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Byte</span></td>
-                    <td><span class="parametername">mac1</span></td>
-                    <td><p>Second MAC Address byte.</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Byte</span></td>
-                    <td><span class="parametername">mac2</span></td>
-                    <td><p>Third MAC Address byte.</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Byte</span></td>
-                    <td><span class="parametername">mac3</span></td>
-                    <td><p>Fourth MAC Address byte.</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Byte</span></td>
-                    <td><span class="parametername">mac4</span></td>
-                    <td><p>Fifth MAC Address byte.</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Byte</span></td>
-                    <td><span class="parametername">mac5</span></td>
-                    <td><p>Sixth MAC Address byte.</p>
-</td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 class="exceptions">Exceptions</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Condition</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.Net.Sockets.SocketException</span></td>
-                    <td><p>An error occurred when accessing the socket. See Remarks section of <span class="xref">System.Net.Sockets.UdpClient.Send(System.Byte[],System.Int32,System.Net.IPEndPoint)</span> for more information.</p>
-</td>
-                  </tr>
-                </tbody>
-              </table>
-              <span class="small pull-right mobile-hide">
-                <span class="divider">|</span>
-                <a href="https://github.com/nikeee/wake-on-lan/new/master/apiSpec/new?filename=System_Net_SendWol_Send_System_Net_IPEndPoint_System_Byte___.md&amp;value=---%0Auid%3A%20System.Net.SendWol.Send(System.Net.IPEndPoint%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-              </span>
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/nikeee/wake-on-lan/blob/master/src/WOL/SendWol.cs/#L34">View Source</a>
-              </span>
-              <a id="System_Net_SendWol_Send_" data-uid="System.Net.SendWol.Send*"></a>
-              <h4 id="System_Net_SendWol_Send_System_Net_IPEndPoint_System_Byte___" data-uid="System.Net.SendWol.Send(System.Net.IPEndPoint,System.Byte[])">Send(IPEndPoint, Byte[])</h4>
-              <div class="markdown level1 summary"><p>Sends a Wake On LAN signal (magic packet) to a client.</p>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/nikeee/wake-on-lan/new/v2/apiSpec/new?filename=System_Net_SendWol_Send_IPEndPoint_PhysicalAddress_System_Net_SecureOnPassword_.md&amp;value=---%0Auid%3A%20System.Net.SendWol.Send(IPEndPoint%2CPhysicalAddress%2CSystem.Net.SecureOnPassword)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/nikeee/wake-on-lan/blob/v2/src/WOL/SendWol.cs/#L67">View Source</a>
+  </span>
+  <a id="System_Net_SendWol_Send_" data-uid="System.Net.SendWol.Send*"></a>
+  <h4 id="System_Net_SendWol_Send_IPEndPoint_PhysicalAddress_System_Net_SecureOnPassword_" data-uid="System.Net.SendWol.Send(IPEndPoint,PhysicalAddress,System.Net.SecureOnPassword)">Send(IPEndPoint, PhysicalAddress, SecureOnPassword)</h4>
+  <div class="markdown level1 summary"><p>Sends a Wake On LAN signal (magic packet) to a client.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static void Send(IPEndPoint target, byte[] macAddress)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.Net.IPEndPoint</span></td>
-                    <td><span class="parametername">target</span></td>
-                    <td><p>Destination <span class="xref">System.Net.IPEndPoint</span>.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Send(IPEndPoint target, PhysicalAddress macAddress, SecureOnPassword password)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IPEndPoint</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>Destination <see cref="!:IPEndPoint"></see>.</p>
 </td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Byte</span>[]</td>
-                    <td><span class="parametername">macAddress</span></td>
-                    <td><p>The MAC address of the designated client.</p>
+      </tr>
+      <tr>
+        <td><span class="xref">PhysicalAddress</span></td>
+        <td><span class="parametername">macAddress</span></td>
+        <td><p>The MAC address of the designated client.</p>
 </td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 class="exceptions">Exceptions</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Condition</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p>target is null.</p>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Net.SecureOnPassword.html">SecureOnPassword</a></td>
+        <td><span class="parametername">password</span></td>
+        <td><p>The SecureOn password of the client.</p>
 </td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p><span class="paramref">macAddress</span> is null.</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.ArgumentException</span></td>
-                    <td><p>The length of the <span class="xref">System.Byte</span> array macAddress is not 6.</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Net.Sockets.SocketException</span></td>
-                    <td><p>An error occurred when accessing the socket. See Remarks section of <span class="xref">System.Net.Sockets.UdpClient.Send(System.Byte[],System.Int32,System.Net.IPEndPoint)</span> for more information.</p>
-</td>
-                  </tr>
-                </tbody>
-              </table>
-              <span class="small pull-right mobile-hide">
-                <span class="divider">|</span>
-                <a href="https://github.com/nikeee/wake-on-lan/new/master/apiSpec/new?filename=System_Net_SendWol_Send_System_Net_IPEndPoint_System_Byte___System_Net_SecureOnPassword_.md&amp;value=---%0Auid%3A%20System.Net.SendWol.Send(System.Net.IPEndPoint%2CSystem.Byte%5B%5D%2CSystem.Net.SecureOnPassword)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-              </span>
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/nikeee/wake-on-lan/blob/master/src/WOL/SendWol.cs/#L44">View Source</a>
-              </span>
-              <a id="System_Net_SendWol_Send_" data-uid="System.Net.SendWol.Send*"></a>
-              <h4 id="System_Net_SendWol_Send_System_Net_IPEndPoint_System_Byte___System_Net_SecureOnPassword_" data-uid="System.Net.SendWol.Send(System.Net.IPEndPoint,System.Byte[],System.Net.SecureOnPassword)">Send(IPEndPoint, Byte[], SecureOnPassword)</h4>
-              <div class="markdown level1 summary"><p>Sends a Wake On LAN signal (magic packet) to a client.</p>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/nikeee/wake-on-lan/new/v2/apiSpec/new?filename=System_Net_SendWol_Send_IPEndPoint_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_.md&amp;value=---%0Auid%3A%20System.Net.SendWol.Send(IPEndPoint%2CSystem.Byte%2CSystem.Byte%2CSystem.Byte%2CSystem.Byte%2CSystem.Byte%2CSystem.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/nikeee/wake-on-lan/blob/v2/src/WOL/SendWol.cs/#L24">View Source</a>
+  </span>
+  <a id="System_Net_SendWol_Send_" data-uid="System.Net.SendWol.Send*"></a>
+  <h4 id="System_Net_SendWol_Send_IPEndPoint_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="System.Net.SendWol.Send(IPEndPoint,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)">Send(IPEndPoint, Byte, Byte, Byte, Byte, Byte, Byte)</h4>
+  <div class="markdown level1 summary"><p>Sends a Wake On LAN signal (magic packet) to a client.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static void Send(IPEndPoint target, byte[] macAddress, SecureOnPassword password)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.Net.IPEndPoint</span></td>
-                    <td><span class="parametername">target</span></td>
-                    <td><p>Destination <span class="xref">System.Net.IPEndPoint</span>.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Send(IPEndPoint target, byte mac0, byte mac1, byte mac2, byte mac3, byte mac4, byte mac5)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IPEndPoint</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>Destination <see cref="!:IPEndPoint"></see>.</p>
 </td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Byte</span>[]</td>
-                    <td><span class="parametername">macAddress</span></td>
-                    <td><p>The MAC address of the designated client.</p>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">mac0</span></td>
+        <td><p>First MAC Address byte.</p>
 </td>
-                  </tr>
-                  <tr>
-                    <td><a class="xref" href="System.Net.SecureOnPassword.html">SecureOnPassword</a></td>
-                    <td><span class="parametername">password</span></td>
-                    <td><p>The SecureOn password of the client.</p>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">mac1</span></td>
+        <td><p>Second MAC Address byte.</p>
 </td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 class="exceptions">Exceptions</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Condition</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p><span class="paramref">target</span> is null.</p>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">mac2</span></td>
+        <td><p>Third MAC Address byte.</p>
 </td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p><span class="paramref">macAddress</span> is null.</p>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">mac3</span></td>
+        <td><p>Fourth MAC Address byte.</p>
 </td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.ArgumentException</span></td>
-                    <td><p>The length of the <span class="xref">System.Byte</span> array <span class="paramref">macAddress</span> is not 6.</p>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">mac4</span></td>
+        <td><p>Fifth MAC Address byte.</p>
 </td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Net.Sockets.SocketException</span></td>
-                    <td><p>An error occurred when accessing the socket. See Remarks section of <span class="xref">System.Net.Sockets.UdpClient.Send(System.Byte[],System.Int32,System.Net.IPEndPoint)</span> for more information.</p>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">mac5</span></td>
+        <td><p>Sixth MAC Address byte.</p>
 </td>
-                  </tr>
-                </tbody>
-              </table>
-              <span class="small pull-right mobile-hide">
-                <span class="divider">|</span>
-                <a href="https://github.com/nikeee/wake-on-lan/new/master/apiSpec/new?filename=System_Net_SendWol_Send_System_Net_IPEndPoint_System_Net_NetworkInformation_PhysicalAddress_.md&amp;value=---%0Auid%3A%20System.Net.SendWol.Send(System.Net.IPEndPoint%2CSystem.Net.NetworkInformation.PhysicalAddress)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-              </span>
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/nikeee/wake-on-lan/blob/master/src/WOL/SendWol.cs/#L59">View Source</a>
-              </span>
-              <a id="System_Net_SendWol_Send_" data-uid="System.Net.SendWol.Send*"></a>
-              <h4 id="System_Net_SendWol_Send_System_Net_IPEndPoint_System_Net_NetworkInformation_PhysicalAddress_" data-uid="System.Net.SendWol.Send(System.Net.IPEndPoint,System.Net.NetworkInformation.PhysicalAddress)">Send(IPEndPoint, PhysicalAddress)</h4>
-              <div class="markdown level1 summary"><p>Sends a Wake On LAN signal (magic packet) to a client.</p>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/nikeee/wake-on-lan/new/v2/apiSpec/new?filename=System_Net_SendWol_Send_IPEndPoint_System_Byte___.md&amp;value=---%0Auid%3A%20System.Net.SendWol.Send(IPEndPoint%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/nikeee/wake-on-lan/blob/v2/src/WOL/SendWol.cs/#L34">View Source</a>
+  </span>
+  <a id="System_Net_SendWol_Send_" data-uid="System.Net.SendWol.Send*"></a>
+  <h4 id="System_Net_SendWol_Send_IPEndPoint_System_Byte___" data-uid="System.Net.SendWol.Send(IPEndPoint,System.Byte[])">Send(IPEndPoint, Byte[])</h4>
+  <div class="markdown level1 summary"><p>Sends a Wake On LAN signal (magic packet) to a client.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static void Send(IPEndPoint target, PhysicalAddress macAddress)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.Net.IPEndPoint</span></td>
-                    <td><span class="parametername">target</span></td>
-                    <td><p>Destination <span class="xref">System.Net.IPEndPoint</span>.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Send(IPEndPoint target, byte[] macAddress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IPEndPoint</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>Destination <see cref="!:IPEndPoint"></see>.</p>
 </td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Net.NetworkInformation.PhysicalAddress</span></td>
-                    <td><span class="parametername">macAddress</span></td>
-                    <td><p>The MAC address of the designated client.</p>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">macAddress</span></td>
+        <td><p>The MAC address of the designated client.</p>
 </td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 class="exceptions">Exceptions</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Condition</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p><span class="paramref">macAddress</span> is null.</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Net.Sockets.SocketException</span></td>
-                    <td><p>An error occurred when accessing the socket. See Remarks section of <span class="xref">System.Net.Sockets.UdpClient.Send(System.Byte[],System.Int32,System.Net.IPEndPoint)</span> for more information.</p>
-</td>
-                  </tr>
-                </tbody>
-              </table>
-              <span class="small pull-right mobile-hide">
-                <span class="divider">|</span>
-                <a href="https://github.com/nikeee/wake-on-lan/new/master/apiSpec/new?filename=System_Net_SendWol_Send_System_Net_IPEndPoint_System_Net_NetworkInformation_PhysicalAddress_System_Net_SecureOnPassword_.md&amp;value=---%0Auid%3A%20System.Net.SendWol.Send(System.Net.IPEndPoint%2CSystem.Net.NetworkInformation.PhysicalAddress%2CSystem.Net.SecureOnPassword)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-              </span>
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/nikeee/wake-on-lan/blob/master/src/WOL/SendWol.cs/#L67">View Source</a>
-              </span>
-              <a id="System_Net_SendWol_Send_" data-uid="System.Net.SendWol.Send*"></a>
-              <h4 id="System_Net_SendWol_Send_System_Net_IPEndPoint_System_Net_NetworkInformation_PhysicalAddress_System_Net_SecureOnPassword_" data-uid="System.Net.SendWol.Send(System.Net.IPEndPoint,System.Net.NetworkInformation.PhysicalAddress,System.Net.SecureOnPassword)">Send(IPEndPoint, PhysicalAddress, SecureOnPassword)</h4>
-              <div class="markdown level1 summary"><p>Sends a Wake On LAN signal (magic packet) to a client.</p>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/nikeee/wake-on-lan/new/v2/apiSpec/new?filename=System_Net_SendWol_Send_IPEndPoint_System_Byte___System_Net_SecureOnPassword_.md&amp;value=---%0Auid%3A%20System.Net.SendWol.Send(IPEndPoint%2CSystem.Byte%5B%5D%2CSystem.Net.SecureOnPassword)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/nikeee/wake-on-lan/blob/v2/src/WOL/SendWol.cs/#L44">View Source</a>
+  </span>
+  <a id="System_Net_SendWol_Send_" data-uid="System.Net.SendWol.Send*"></a>
+  <h4 id="System_Net_SendWol_Send_IPEndPoint_System_Byte___System_Net_SecureOnPassword_" data-uid="System.Net.SendWol.Send(IPEndPoint,System.Byte[],System.Net.SecureOnPassword)">Send(IPEndPoint, Byte[], SecureOnPassword)</h4>
+  <div class="markdown level1 summary"><p>Sends a Wake On LAN signal (magic packet) to a client.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static void Send(IPEndPoint target, PhysicalAddress macAddress, SecureOnPassword password)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.Net.IPEndPoint</span></td>
-                    <td><span class="parametername">target</span></td>
-                    <td><p>Destination <span class="xref">System.Net.IPEndPoint</span>.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Send(IPEndPoint target, byte[] macAddress, SecureOnPassword password)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IPEndPoint</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>Destination <see cref="!:IPEndPoint"></see>.</p>
 </td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Net.NetworkInformation.PhysicalAddress</span></td>
-                    <td><span class="parametername">macAddress</span></td>
-                    <td><p>The MAC address of the designated client.</p>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">macAddress</span></td>
+        <td><p>The MAC address of the designated client.</p>
 </td>
-                  </tr>
-                  <tr>
-                    <td><a class="xref" href="System.Net.SecureOnPassword.html">SecureOnPassword</a></td>
-                    <td><span class="parametername">password</span></td>
-                    <td><p>The SecureOn password of the client.</p>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Net.SecureOnPassword.html">SecureOnPassword</a></td>
+        <td><span class="parametername">password</span></td>
+        <td><p>The SecureOn password of the client.</p>
 </td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 class="exceptions">Exceptions</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Condition</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p><span class="paramref">macAddress</span> is null.</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Net.Sockets.SocketException</span></td>
-                    <td><p>An error occurred when accessing the socket. See Remarks section of <span class="xref">System.Net.Sockets.UdpClient.Send(System.Byte[],System.Int32,System.Net.IPEndPoint)</span> for more information.</p>
-</td>
-                  </tr>
-                </tbody>
-              </table>
-                        </article>
+      </tr>
+    </tbody>
+  </table>
+</article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
@@ -490,10 +347,10 @@ public static void Send(IPEndPoint target, byte mac0, byte mac1, byte mac2, byte
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/nikeee/wake-on-lan/new/master/apiSpec/new?filename=System_Net_SendWol.md&amp;value=---%0Auid%3A%20System.Net.SendWol%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/nikeee/wake-on-lan/new/v2/apiSpec/new?filename=System_Net_SendWol.md&amp;value=---%0Auid%3A%20System.Net.SendWol%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/nikeee/wake-on-lan/blob/master/src/WOL/SendWol.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/nikeee/wake-on-lan/blob/v2/src/WOL/SendWol.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
@@ -513,7 +370,7 @@ public static void Send(IPEndPoint target, byte mac0, byte mac1, byte mac2, byte
               <a href="#top">Back to top</a>
             </span>
             
-            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>
