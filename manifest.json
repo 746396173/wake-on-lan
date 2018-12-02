@@ -18,223 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "ZdKWw4zvqqnUNKokMgt0sQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/System.Net.ArpRequest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/System.Net.ArpRequest.html",
-          "hash": "F9aqNzLVBgEOJwuPpBewiA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/System.Net.ArpRequestResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/System.Net.ArpRequestResult.html",
-          "hash": "wxEYsfHG7E3LWZjM1ia9LQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/System.Net.PhysicalAddressAdministrator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/System.Net.PhysicalAddressAdministrator.html",
-          "hash": "lgwMJzvKnoxmI3O5Uy4KUg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/System.Net.PhysicalAddressType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/System.Net.PhysicalAddressType.html",
-          "hash": "DSQp/LRTxWkWUB2NXQVZ9Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/System.Net.SecureOnPassword.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/System.Net.SecureOnPassword.html",
-          "hash": "G9nwdPAWAsXDAeT2i0vgLw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/System.Net.SendWol.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/System.Net.SendWol.html",
-          "hash": "STpbVfexcEtMjNcttPLnVQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/System.Net.Topology.INetMask.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/System.Net.Topology.INetMask.html",
-          "hash": "eFgSmykKGA3TGjkxgsVr2Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/System.Net.Topology.NetMask.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/System.Net.Topology.NetMask.html",
-          "hash": "Y7gXX5+D5RKhb8n7+k3uCA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/System.Net.Topology.NetMaskExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/System.Net.Topology.NetMaskExtensions.html",
-          "hash": "s/LvXE3iBW4Yz0dticmqQQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/System.Net.Topology.SiblingOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/System.Net.Topology.SiblingOptions.html",
-          "hash": "gmgGzIBdaWPZ4aXBiOkXfg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/System.Net.Topology.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/System.Net.Topology.html",
-          "hash": "qzl8Vnt8SZOpEltmH53AAw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/System.Net.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/System.Net.html",
-          "hash": "UHzKsm1wdxw27dko+n+DVQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/WakeOnLan.Testing.ByteArrayExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/WakeOnLan.Testing.ByteArrayExtensionsTests.html",
-          "hash": "9hDYPquGyvtZ8iRo61nd8Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/WakeOnLan.Testing.IPAddressExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/WakeOnLan.Testing.IPAddressExtensionsTests.html",
-          "hash": "RAHazy/6FY/FmlfaBjywgQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/WakeOnLan.Testing.NetMaskTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/WakeOnLan.Testing.NetMaskTests.html",
-          "hash": "2F4ckJQm2FvUVqu+hhiikQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/WakeOnLan.Testing.TestHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/WakeOnLan.Testing.TestHelper.html",
-          "hash": "5N5wVNj56g7KzCR/ffDJuQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/WakeOnLan.Testing.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/WakeOnLan.Testing.html",
-          "hash": "BmN9SJ230Bbd+NY3SWr7MA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "obj/api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "iDYlptKOS2CSsVT6EgYM2w=="
+          "hash": "+9uBYo0PHULdkz5P5DG3Sw=="
         }
       },
       "is_incremental": false,
@@ -246,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "ZKen4MUgHi9u8az4DmXilg=="
+          "hash": "MU078iRvVVb77/QYB9Sikg=="
         }
       },
       "is_incremental": false,
@@ -263,14 +47,10 @@
       "processors": {
         "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build"
-        },
-        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         }
